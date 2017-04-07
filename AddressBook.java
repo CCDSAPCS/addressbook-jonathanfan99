@@ -42,15 +42,15 @@ public class AddressBook {
 		menu(); //call the new method
 		int choice = scan.nextInt();
 		if(choice==1){
-			addContacts();
+			blackbook.addContacts();
 			
 		}
 		if(choice==2)
-			deleteContacts();
+			blackbook.deleteContacts();
 		if(choice==3)
-			numContacts();
+			blackbook.numContacts();
 		if(choice==4)
-			printContacts();
+			blackbook.printContacts();
 		if(choice==5)
 			//quit;
 	}
